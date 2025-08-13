@@ -1,0 +1,93 @@
+/* ===== General Styling ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(135deg, #4CAF50, #2e8b57);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* ===== Section Titles ===== */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4CAF50;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* ===== About Section ===== */
+.about p {
+    font-size: 1.1rem;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* ===== Projects ===== */
+.projects {
+    display: grid;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== Contact Section ===== */
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 30px;
+}
